@@ -2,25 +2,20 @@ h1 {
     text-align: center;
   }
   
-  .storage h2 {
-    background-color: antiquewhite;
+  .storage {
+    background-color: greenyellow;
+    border: 1px solid black;
+    margin-right: 145px;
+    padding: 20px 2px 20px 2px;
+    width: 370px;}
+    
+ 
+  
+  .substorage {
+  background-color: rgb(111, 141, 229);
     border: 1px solid black;
     padding: 0.25rem 0;
     width: 50%;
+  
   }
   
-  .substorages {
-    display: flex;
-    gap: 1rem;
-  }
-  
-  .substorage {
-    background: #ddd;
-    padding: 0.25rem;
-  
-    flex: 1;
-  }
-  
-  .substorage h3 {
-    text-transform: uppercase;
-  }
